@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="searchmenu">#7eb1fc</color>
+    <color name="blue">#3385ff</color>
+    <color name="ash">#8a8a8a</color>
+    <color name="skin_tabbar_bg">#FCF8FC</color>
+    <color name="ash30">#30000000</color>
+    <color name="gray">#EDEFF2</color>
+    <color name="grey">#808080</color>
+    <color name="black">#000000</color>
+    <color name="style_color_primary">#d32f2f</color>
+    <color name="font_normal">#555555</color>
+    <color name="menubackground">#FAFAFA</color>
+    <color name="style_window_background">#212121</color>
+    <color name="style_window_background_light">#ffffff</color>
+    <color name="ash118">#767676</color>
+    <color name="navigation_item_icon_color_normal">#AEAEAE</color>
+    <color name="color_read">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="divider">#B6B6B6</color>
+</resources>

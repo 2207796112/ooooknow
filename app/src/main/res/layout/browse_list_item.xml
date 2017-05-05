@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/browse_re_parent"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/btn_list_item_bg"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/browse_re_avatar"
+        android:layout_width="72dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/browse_circleimg_userimg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/profile" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/browse_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/browse_re_avatar"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="爱久见人心00000000000000000000000000000000000000000000"
+        android:textColor="#353535"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/browse_re_avatar"
+        android:orientation="horizontal"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:id="@+id/browse_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="微软小冰：亲爱的 你最近好吗？？？454555555555555555555555555555555555"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#dadada" />
+</RelativeLayout>

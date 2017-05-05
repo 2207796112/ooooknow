@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_thank"
+        android:icon="@drawable/thank_white_64"
+        android:title="感谢"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_praise"
+        android:icon="@drawable/fabulous_white_64"
+        android:title="点赞"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/share_white_64"
+        android:title="分享"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_comments"
+        android:icon="@drawable/comments_white_64"
+        android:title="评论"
+        app:showAsAction="always" />
+
+
+</menu>

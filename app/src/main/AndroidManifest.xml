@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ooooknow.flove.byxy.ooooknow">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ooooknow"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ui.activity.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.UserActivity">
+
+        </activity>
+        <activity android:name=".ui.activity.DetailsActivity">
+
+        </activity>
+        <activity android:name=".ui.activity.MainActivity">
+
+        </activity>
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity android:name=".ui.activity.ChatActivity">
+
+        </activity>
+        <activity android:name=".ui.activity.CommentsActivity">
+
+        </activity>
+        <activity android:name=".ui.activity.AboutActivity">
+
+        </activity>
+        <activity android:name=".ui.activity.FeedbackActivity">
+
+        </activity>
+    </application>
+
+</manifest>

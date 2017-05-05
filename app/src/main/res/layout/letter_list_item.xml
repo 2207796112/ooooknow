@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/letter_re_parent"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/btn_list_item_bg"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/letter_re_avatar"
+        android:layout_width="72dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+
+
+       <!-- xmlns:fresco="http://schemas.android.com/apk/res-auto"-->
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/letter_sdv_userhead"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            fresco:placeholderImage="@drawable/profile"
+            fresco:roundAsCircle="true"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/letter_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/letter_re_avatar"
+        android:text="爱久见人心"
+        android:textColor="#353535"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/letter_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:text="昨天"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_toRightOf="@id/letter_re_avatar"
+        android:orientation="horizontal"
+        android:paddingRight="30dp">
+
+
+        <TextView
+            android:id="@+id/letter_tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="微软小冰：亲爱的 你最近好吗？？？"
+            android:textColor="#AAAAAA"
+            android:paddingBottom="5dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#dadada" />
+</RelativeLayout>

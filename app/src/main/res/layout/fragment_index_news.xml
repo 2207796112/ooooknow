@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ooooknow.flove.byxy.ooooknow.lfrecycler.LFRecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+
+    </com.ooooknow.flove.byxy.ooooknow.lfrecycler.LFRecyclerView>
+
+    <com.ooooknow.flove.byxy.ooooknow.widget.CircleProgressView
+        android:id="@+id/index_progress"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_centerInParent="true"
+
+        android:layout_centerVertical="true"
+
+        app:matProg_barColor="?attr/colorPrimary"
+        app:matProg_barWidth="4dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/index_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:src="@drawable/ic_edit"
+        app:backgroundTint="@color/blue" />
+
+
+    <TextView
+        android:id="@+id/index_cloud"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>
